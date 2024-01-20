@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="cs-CZ">
+    <head>
+        <meta charset="UTF-8">
+        <title>Database Window</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>User Registration</h1>
+        </header>
+        <nav>
+            <button onclick="showRegistrationForm()">Registration</button>
+            <button onclick="showLoginForm()">Login</button>
+            <button onclick="showUserList()">Delete DB</button>
+            <button onclick="deleteUser()">Delete Uživatele</button>
+            <button onclick="deleteDatabase()">Delete DB</button>
+        </nav>
+        <div id="content">
+            <!-- Tento kontent se dynamicky mění. -->
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

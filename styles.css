@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #115de9;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 4em;
+}
+
+button {
+    margin: 0 4em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 2em auto;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
